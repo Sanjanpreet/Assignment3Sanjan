@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>To-Do List</h1>
+            <p>Organize your tasks effortlessly.</p>
+        </header>
+        <main class="content">
+            <div class="task-input">
+                <input type="text" id="add-todo" placeholder="Add a new task">
+                <button id="add-btn">+ Add</button>
+            </div>
+            <section class="tasks">
+                <ul id="todo-list">
+                    <!-- Task items will appear here -->
+                </ul>
+            </section>
+            <footer class="progress-section">
+                <progress id="progress-bar" value="0" max="100"></progress>
+                <span id="progress-text">0% Completed</span>
+            </footer>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
